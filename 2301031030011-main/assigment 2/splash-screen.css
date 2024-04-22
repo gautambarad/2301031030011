@@ -1,0 +1,110 @@
+.food-app {
+  position: relative;
+}
+.food-app-wrapper {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0 var(--padding-xl) 0 var(--padding-39xl);
+}
+.first-element-child {
+  position: absolute;
+  top: 243px;
+  left: 222px;
+  filter: blur(14px);
+  border-radius: 50%;
+  background-color: var(--color-black);
+  width: 108px;
+  height: 12px;
+}
+.image-1-icon {
+  position: absolute;
+  top: 77px;
+  left: 134px;
+  width: 202px;
+  height: 202px;
+  object-fit: contain;
+  z-index: 2;
+}
+.image-2-icon {
+  position: absolute;
+  top: 0;
+  left: -42px;
+  width: 246px;
+  height: 288px;
+  object-fit: cover;
+}
+.wrapper-rectangle-90-child {
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  object-fit: contain;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transform: scale(2);
+}
+.wrapper-rectangle-90 {
+  position: absolute;
+  top: 117.5px;
+  left: 149px;
+  width: 42px;
+  height: 137.5px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.download {
+  position: absolute;
+  top: 42px;
+  left: -26px;
+  filter: blur(100px);
+  border-radius: 50%;
+  background-color: rgba(0, 0, 0, 0.6);
+  width: 57px;
+  height: 237px;
+  z-index: 1;
+}
+.next-element {
+  position: absolute;
+  height: 100%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  width: 204px;
+}
+.first-element {
+  width: 356px;
+  height: 251px;
+  position: relative;
+  max-width: 100%;
+}
+.splash-screen {
+  width: 100%;
+  position: relative;
+  border-radius: var(--br-16xl);
+  background-color: var(--color-royalblue-100);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 282px 0 0;
+  box-sizing: border-box;
+  gap: 324px;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: 60px;
+  color: var(--color-white);
+  font-family: var(--font-lobster);
+}
+@media screen and (max-width: 288px) {
+  .food-app-wrapper {
+    padding-left: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}
